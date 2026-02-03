@@ -84,11 +84,13 @@ export default function PhotoPairGame({
   };
 
   // Check if game is won
-  useEffect(() => {
-    if (matched.length === imagePairs.length) {
+useEffect(() => {
+  if (matched.length === imagePairs.length) {
+    setTimeout(() => {
       handleShowProposal();
-    }
-  }, [matched, handleShowProposal]);
+    }, 1500); // 👈 delay before transition
+  }
+}, [matched, handleShowProposal]);
 
   return (
     <div className="grid grid-cols-9 gap-2">
