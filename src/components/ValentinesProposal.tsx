@@ -92,6 +92,7 @@ export default function ValentinesProposal() {
             exit={{ opacity: 0 }}
           >
             Congratulations baby! You have completed the game hehe... 
+            (wait for it)
           </motion.h2>
         )}
         {step === 1 && (
@@ -129,11 +130,11 @@ export default function ValentinesProposal() {
               ))}
             </div>
 
-            <h2
-              className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
-            >
-              Will you be my Valentine, Daryl?
-            </h2>
+           <h2
+  className={`text-5xl font-semibold mb-8 text-pink-300 ${playfairDisplay.className}`}
+>
+  Will you be my Valentine, Daryl?
+</h2>
             <Image
               src="/sad_hamster.png"
               alt="Sad Hamster"
@@ -175,7 +176,7 @@ export default function ValentinesProposal() {
             exit={{ opacity: 0 }}
           >
             Thank you for accepting me, I love you 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            <p className="text-sm mt-4">ok bye, see u soon!!! 💌</p>
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"
