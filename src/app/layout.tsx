@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Just for Daryl :)",
   description:
-    "Hi baby, come play a game :) I hope this makes you smile.. Please open lewat laptop ya",
+    "Hi baby, come play a memory game :) I hope this makes you smile.. Please open lewat laptop ya, and set aside 15 minutes!!",
   keywords: [
     "Valentine's card game",
     "romantic proposal game",
