@@ -135,6 +135,9 @@ export default function ValentinesProposal() {
 >
   Will you be my Valentine, Daryl?
 </h2>
+            <p className="text-lg text-pink-200 italic">
+  I dare you to press no... 👿
+</p>
             <Image
               src="/sad_hamster.png"
               alt="Sad Hamster"
