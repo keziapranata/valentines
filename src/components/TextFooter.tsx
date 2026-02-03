@@ -13,8 +13,8 @@ export default function TextFooter() {
 <h1
   className={`absolute left-10 top-10 text-pink-300 text-3xl font-bold leading-tight ${playfairDisplay.className}`}
 >
-    <span className="block text-xl text-pink-400 mb-2">
-    Hi Daryl :)
+    <span className="block text-2xl text-pink-400 mb-2">
+    Hi Darie baby :)
   </span>
   <span className="text-gray-400">Match</span> <br /> the photo pairs...
 </h1>
