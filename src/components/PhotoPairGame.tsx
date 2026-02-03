@@ -88,7 +88,7 @@ useEffect(() => {
   if (matched.length === imagePairs.length) {
     setTimeout(() => {
       handleShowProposal();
-    }, 1500); // 👈 delay before transition
+    }, 2000); // 👈 delay before transition
   }
 }, [matched, handleShowProposal]);
 
